@@ -43,3 +43,5 @@ check()
 //penggunaan try catch
 //try catch berfungsi untuk mengecek keadaan sebuah fungsi apakah berhasil atau tidaknya suatu program
 //jika tidak berhasil maka akan langsung me return sebuah error
+//untuk penggunaan async sendiri akan berjalan ketika func cekHariKerja() selesai di proses dengan waktu 3 detik
+// maka akan me return console.log(res) atau console.log(error)
