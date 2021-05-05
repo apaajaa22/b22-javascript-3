@@ -29,10 +29,13 @@ cekHariKerja("senin")
 //jika berhasil dijalankan maka akan me return sebuah value
 //jika tidak berhasil pun bisa me return sebuah value berupa error message
 
-try {
-  cekHariKerja("minggu")
-} catch (error) {
-  console.log(error)
+async function check() {
+  try {
+    const res = await cekHariKerja("minggu")
+    console.log(res)
+  } catch (error) {
+    console.log(error)
+  }
 }
 
 //penggunaan try catch
