@@ -31,12 +31,14 @@ cekHariKerja("senin")
 
 async function check() {
   try {
-    const res = await cekHariKerja("minggu")
+    const res = await cekHariKerja("senin")
     console.log(res)
   } catch (error) {
     console.log(error)
   }
 }
+
+check()
 
 //penggunaan try catch
 //try catch berfungsi untuk mengecek keadaan sebuah fungsi apakah berhasil atau tidaknya suatu program
