@@ -24,7 +24,7 @@ const getMonth = (callback) => {
 }
 
 const month = (none, value) => {
-  let input = Array.from(value)
+  let input = [value]
   input.map((res) => {
     console.log(res)
   })
